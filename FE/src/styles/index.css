@@ -1,0 +1,120 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "chakra";
+  src: url("assets/fonts/chakra_petch/ChakraPetch-Regular.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "chakra_medium";
+  src: url("assets/fonts/chakra_petch/ChakraPetch-Medium.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "chakra_bold";
+  src: url("assets/fonts/chakra_petch/ChakraPetch-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "shot";
+  src: url("assets/fonts/shot.ttf") format("truetype");
+  font-weight: bold;
+}
+
+html:before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  z-index: -5;
+  background-image: linear-gradient(
+    180deg,
+    rgba(50, 70, 80, 0.9) 0,
+    #0d101b 100%
+  );
+}
+
+html:after {
+  content: "";
+  position: fixed;
+  top: 0;
+  height: 100%;
+  left: 0;
+  right: 0;
+  z-index: -10;
+  background-color: #273136;
+  background-image: linear-gradient(
+    180deg,
+    rgba(50, 70, 80, 0.9) 0,
+    #0d101b 100%
+  );
+  background-image: url("assets/images/cover.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: initial;
+  height: 100%;
+  transition: background 0.2s linear;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+  /* font-family: "Chakra Petch",sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 300;
+  letter-spacing: 0.046875rem;
+  position: relative;
+  min-height: 100vh;
+  z-index: 9999;
+  background-color: transparent;
+  color: #fff;
+}
+
+body:before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-attachment: initial;
+  background-color: transparent;
+  background-image: url("assets/images/pattern.png");
+  background-size: 4.6875rem;
+  background-repeat: repeat;
+  background-attachment: initial;
+  z-index: -5;
+}
+
+*::-webkit-scrollbar {
+  width: 0.4em;
+  height: 0.4em;
+}
+*::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  outline: 1px solid rgba(99, 105, 112, 0.95);
+  border-radius: 2px;
+  min-height: 24;
+  min-width: 24;
+}
+*::-webkit-scrollbar-corner {
+  background-color: transparent,
+}
+
+
+* {
+  font-family: "chakra";
+}

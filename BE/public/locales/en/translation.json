@@ -1,0 +1,14 @@
+{
+  "welcome": "Here is my some sample code",
+  "auth": {
+    "invalid_credential": "Invalid Credentials.",
+    "user_not_approve": "User was not approved yet.",
+    "user_register_success": "User was registered successfully!",
+    "fullname_require": "Fullname field is required.",
+    "username_require": "Username field is required.",
+    "password_require": "Password field is required.",
+    "password_length_require": "Password must be at least 6 characters.",
+    "password_confirm_require": "Confirm Password field is required.",
+    "password_match": "Passwords must match."
+  }
+}

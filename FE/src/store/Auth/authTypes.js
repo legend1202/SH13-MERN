@@ -1,0 +1,9 @@
+const authTypes = {
+  LOGIN_START: "LOGIN_START",
+  LOGIN_SUCCESS: "LOGIN_SUCCESS",
+  REGISTER_START: "REGISTER_START",
+  REGISTER_SUCCESS: "REGISTER_SUCCESS",
+  LOG_OUT: "LOG_OUT",
+};
+
+export default authTypes;
