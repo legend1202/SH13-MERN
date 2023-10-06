@@ -1,4 +1,4 @@
-export const API_URL = `http://${window.location.hostname}:8081/api`;
+export const API_URL = `http://beehives.grwth.hk/api`;
 export const HOST_URL = `http://${window.location.hostname}:8081`;
 
 export const convertApiUrl = (url, param="") => {
